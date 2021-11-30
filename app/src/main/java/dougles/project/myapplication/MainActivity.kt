@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), ItemClickListener {
         setData()
 
         swipeRecyclerView.setOnRefreshListener{
-           // swipeRecyclerView.isRefreshing=false;
+            swipeRecyclerView.isRefreshing=false;
         }
 
 
